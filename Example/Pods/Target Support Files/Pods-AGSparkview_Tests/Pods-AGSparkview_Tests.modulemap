@@ -1,0 +1,6 @@
+framework module Pods_AGSparkview_Tests {
+  umbrella header "Pods-AGSparkview_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

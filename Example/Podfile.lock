@@ -1,0 +1,16 @@
+PODS:
+  - AGSparkview (0.1.0)
+
+DEPENDENCIES:
+  - AGSparkview (from `../`)
+
+EXTERNAL SOURCES:
+  AGSparkview:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AGSparkview: 4891dc5c8f9cebccae39ee326a50af9c9dcde0e0
+
+PODFILE CHECKSUM: f1675656d6e4dd5fef0878c10866f0ad9900383b
+
+COCOAPODS: 1.10.2

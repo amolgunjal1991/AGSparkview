@@ -1,0 +1,6 @@
+framework module AGSparkview {
+  umbrella header "AGSparkview-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F083B3B1ECA348638D0E154398C678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		16BA50763D4AAF9E0792E1BC3733E6A0 /* Pods-AGSparkview_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC592FE4D64E508D61C6C34184076A30 /* Pods-AGSparkview_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		230174FA606A5BF90A5628A1CB91280F /* Pods-AGSparkview_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 791DEA090210F8A4E018BEBD6E280EF3 /* Pods-AGSparkview_Example-dummy.m */; };
+		319D0AAD28E0363DF95D20CB3E95BBFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3C3E88DC26CD78E100BD7B8D /* AGSparkview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E88DB26CD78E100BD7B8D /* AGSparkview.swift */; };
+		5AF6A5B0B12E547AEE3A84F7403483F7 /* Pods-AGSparkview_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D3FA6EE3AAF5FDF490D98F093B07E6 /* Pods-AGSparkview_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60E4F086A8049B12DE937CC414B9E743 /* AGSparkview-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D2D2DE81D1A75E9E8B986FE9C63DA5 /* AGSparkview-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1B6127383D40EE9B76A146BD3536B90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BB117B53A08732D88161C79ADB8C6389 /* AGSparkview-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C812BDFB22657530EB810D9FC1363AB4 /* AGSparkview-dummy.m */; };
+		FE68F5E7DE7E25E715BC9BAB23F948A5 /* Pods-AGSparkview_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0FF248D8DAF9CAF252E9374155D964 /* Pods-AGSparkview_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77A61D7E638D927D687AE2BC5698B51A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32EA06429E6B092CBA2D3906C3814252;
+			remoteInfo = "Pods-AGSparkview_Example";
+		};
+		7A9BB4FADC09AA7522BC34C96EE9A82A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B82385FBB0751D6F8FA476849FA26639;
+			remoteInfo = AGSparkview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DA29933C840833AE26105CBC64AA00 /* AGSparkview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGSparkview.debug.xcconfig; sourceTree = "<group>"; };
+		01F9BBD4FB02D51BC3DB7CA948D732AE /* Pods-AGSparkview_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGSparkview_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1589663A46492DCA0FDC9CEF25BD48EA /* Pods-AGSparkview_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGSparkview_Example-frameworks.sh"; sourceTree = "<group>"; };
+		16D2D2DE81D1A75E9E8B986FE9C63DA5 /* AGSparkview-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGSparkview-umbrella.h"; sourceTree = "<group>"; };
+		1B4DBB9D6A11EEDF0008F0C7A116A5EA /* Pods-AGSparkview_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGSparkview_Example-Info.plist"; sourceTree = "<group>"; };
+		1CC6825C03145E7E77DA149F018BF28D /* Pods-AGSparkview_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AGSparkview_Example.modulemap"; sourceTree = "<group>"; };
+		31BDB5A60C9EF568C42F3552E2DDCB65 /* AGSparkview.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AGSparkview.modulemap; sourceTree = "<group>"; };
+		33E571B30A05C4FF5184F7478B9F3D2B /* Pods-AGSparkview_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGSparkview_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3C3E88DB26CD78E100BD7B8D /* AGSparkview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AGSparkview.swift; path = AGSparkview/Classes/AGSparkview.swift; sourceTree = "<group>"; };
+		461B0E3AC6813C34C62CF06BAF2AE5A0 /* AGSparkview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGSparkview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4997E3EA5216A7559B7E2FEF1814D487 /* AGSparkview.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AGSparkview.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		791DEA090210F8A4E018BEBD6E280EF3 /* Pods-AGSparkview_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGSparkview_Example-dummy.m"; sourceTree = "<group>"; };
+		834DE9173DC530CD9F640C107AC77805 /* Pods-AGSparkview_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGSparkview_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93040D28827BDA3767C904A0C5D7A82E /* Pods-AGSparkview_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AGSparkview_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7F94296A1711B2D034BE11D0CA74594 /* AGSparkview-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AGSparkview-Info.plist"; sourceTree = "<group>"; };
+		B553B0618F45665BF4410654C8413BDE /* Pods-AGSparkview_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGSparkview_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BBBC3169CF8C6D7B14C0AB5DA551D542 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BD0FF248D8DAF9CAF252E9374155D964 /* Pods-AGSparkview_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGSparkview_Tests-dummy.m"; sourceTree = "<group>"; };
+		C08B25DE473CD1F5C1833E2781C0DE1D /* Pods-AGSparkview_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGSparkview_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1D3FA6EE3AAF5FDF490D98F093B07E6 /* Pods-AGSparkview_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGSparkview_Example-umbrella.h"; sourceTree = "<group>"; };
+		C812BDFB22657530EB810D9FC1363AB4 /* AGSparkview-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGSparkview-dummy.m"; sourceTree = "<group>"; };
+		CD303BE946FE8C3051D6C6A66ABBFD7D /* Pods_AGSparkview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGSparkview_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62E5A0DF254B1EE0A2D07534DF94DA5 /* Pods-AGSparkview_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGSparkview_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0B181BB3A6B65E838A6B243C30709FC /* AGSparkview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGSparkview.release.xcconfig; sourceTree = "<group>"; };
+		E1306A90874F4CE960F37E48C0E1CF60 /* Pods-AGSparkview_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGSparkview_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E8E440CFE09F313B3738A8107294065F /* Pods-AGSparkview_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGSparkview_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9FB0B60B22F244E14A9A1B2E985F697 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EA861993382401B1C7BA69A895A2E567 /* Pods-AGSparkview_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGSparkview_Tests-Info.plist"; sourceTree = "<group>"; };
+		EC592FE4D64E508D61C6C34184076A30 /* Pods-AGSparkview_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGSparkview_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F2DED94D11F5B3CE9BED86488003D188 /* Pods_AGSparkview_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGSparkview_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC231BCA40A111D81C9D47CE5F3ADB5F /* AGSparkview-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGSparkview-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1041E718E8CD59568775FCDCC467E07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B6127383D40EE9B76A146BD3536B90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75486C7BB41164F1F3FA2132BFCA6441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319D0AAD28E0363DF95D20CB3E95BBFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DAE5FB0DC6704412101175261EC78A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F083B3B1ECA348638D0E154398C678 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174B751E9D6561C74D75DE33C5211D67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				461B0E3AC6813C34C62CF06BAF2AE5A0 /* AGSparkview.framework */,
+				F2DED94D11F5B3CE9BED86488003D188 /* Pods_AGSparkview_Example.framework */,
+				CD303BE946FE8C3051D6C6A66ABBFD7D /* Pods_AGSparkview_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A29695D390AD5197167B0EC292EC5D /* AGSparkview */ = {
+			isa = PBXGroup;
+			children = (
+				3C3E88DB26CD78E100BD7B8D /* AGSparkview.swift */,
+				5311B1BD66C919E9A25BF7083A2C11E4 /* Pod */,
+				4015E76BDBE5E9705B1A367D9610403C /* Support Files */,
+			);
+			name = AGSparkview;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4015E76BDBE5E9705B1A367D9610403C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31BDB5A60C9EF568C42F3552E2DDCB65 /* AGSparkview.modulemap */,
+				C812BDFB22657530EB810D9FC1363AB4 /* AGSparkview-dummy.m */,
+				A7F94296A1711B2D034BE11D0CA74594 /* AGSparkview-Info.plist */,
+				FC231BCA40A111D81C9D47CE5F3ADB5F /* AGSparkview-prefix.pch */,
+				16D2D2DE81D1A75E9E8B986FE9C63DA5 /* AGSparkview-umbrella.h */,
+				00DA29933C840833AE26105CBC64AA00 /* AGSparkview.debug.xcconfig */,
+				E0B181BB3A6B65E838A6B243C30709FC /* AGSparkview.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AGSparkview";
+			sourceTree = "<group>";
+		};
+		448C665E0B2EE21E0BF2AC3FD835C846 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E79DF1C7524A10BEB27688659E91F391 /* Pods-AGSparkview_Example */,
+				AAA08F49770721D187FFE1C427075E30 /* Pods-AGSparkview_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5311B1BD66C919E9A25BF7083A2C11E4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4997E3EA5216A7559B7E2FEF1814D487 /* AGSparkview.podspec */,
+				E9FB0B60B22F244E14A9A1B2E985F697 /* LICENSE */,
+				BBBC3169CF8C6D7B14C0AB5DA551D542 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75A0954A301A56D3115530DAC9D7FFF3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18A29695D390AD5197167B0EC292EC5D /* AGSparkview */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AAA08F49770721D187FFE1C427075E30 /* Pods-AGSparkview_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				93040D28827BDA3767C904A0C5D7A82E /* Pods-AGSparkview_Tests.modulemap */,
+				01F9BBD4FB02D51BC3DB7CA948D732AE /* Pods-AGSparkview_Tests-acknowledgements.markdown */,
+				834DE9173DC530CD9F640C107AC77805 /* Pods-AGSparkview_Tests-acknowledgements.plist */,
+				BD0FF248D8DAF9CAF252E9374155D964 /* Pods-AGSparkview_Tests-dummy.m */,
+				EA861993382401B1C7BA69A895A2E567 /* Pods-AGSparkview_Tests-Info.plist */,
+				EC592FE4D64E508D61C6C34184076A30 /* Pods-AGSparkview_Tests-umbrella.h */,
+				C08B25DE473CD1F5C1833E2781C0DE1D /* Pods-AGSparkview_Tests.debug.xcconfig */,
+				E1306A90874F4CE960F37E48C0E1CF60 /* Pods-AGSparkview_Tests.release.xcconfig */,
+			);
+			name = "Pods-AGSparkview_Tests";
+			path = "Target Support Files/Pods-AGSparkview_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				75A0954A301A56D3115530DAC9D7FFF3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				174B751E9D6561C74D75DE33C5211D67 /* Products */,
+				448C665E0B2EE21E0BF2AC3FD835C846 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E79DF1C7524A10BEB27688659E91F391 /* Pods-AGSparkview_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1CC6825C03145E7E77DA149F018BF28D /* Pods-AGSparkview_Example.modulemap */,
+				E8E440CFE09F313B3738A8107294065F /* Pods-AGSparkview_Example-acknowledgements.markdown */,
+				D62E5A0DF254B1EE0A2D07534DF94DA5 /* Pods-AGSparkview_Example-acknowledgements.plist */,
+				791DEA090210F8A4E018BEBD6E280EF3 /* Pods-AGSparkview_Example-dummy.m */,
+				1589663A46492DCA0FDC9CEF25BD48EA /* Pods-AGSparkview_Example-frameworks.sh */,
+				1B4DBB9D6A11EEDF0008F0C7A116A5EA /* Pods-AGSparkview_Example-Info.plist */,
+				C1D3FA6EE3AAF5FDF490D98F093B07E6 /* Pods-AGSparkview_Example-umbrella.h */,
+				33E571B30A05C4FF5184F7478B9F3D2B /* Pods-AGSparkview_Example.debug.xcconfig */,
+				B553B0618F45665BF4410654C8413BDE /* Pods-AGSparkview_Example.release.xcconfig */,
+			);
+			name = "Pods-AGSparkview_Example";
+			path = "Target Support Files/Pods-AGSparkview_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		686326F0F93CED45A7004E91F5AE6828 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E4F086A8049B12DE937CC414B9E743 /* AGSparkview-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A9C8F9279A3181E9BB24004C25D66D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BA50763D4AAF9E0792E1BC3733E6A0 /* Pods-AGSparkview_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CA37393969616559DED5AFC724CAC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF6A5B0B12E547AEE3A84F7403483F7 /* Pods-AGSparkview_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32EA06429E6B092CBA2D3906C3814252 /* Pods-AGSparkview_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69F673AFB798F2BCDCF3A91AAF9B925 /* Build configuration list for PBXNativeTarget "Pods-AGSparkview_Example" */;
+			buildPhases = (
+				D0CA37393969616559DED5AFC724CAC7 /* Headers */,
+				E293A1227126DFC16CD77D8CF76B6A63 /* Sources */,
+				82DAE5FB0DC6704412101175261EC78A /* Frameworks */,
+				2137B4A7BE3C83EF65B066191B4F03A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C642D72C2532B0B51B0020D90300DDF5 /* PBXTargetDependency */,
+			);
+			name = "Pods-AGSparkview_Example";
+			productName = "Pods-AGSparkview_Example";
+			productReference = F2DED94D11F5B3CE9BED86488003D188 /* Pods_AGSparkview_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8CBFFC54DC21900234045E79B17EC9B /* Pods-AGSparkview_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C71B01CFC0A12C0E7370181FE40E1FF /* Build configuration list for PBXNativeTarget "Pods-AGSparkview_Tests" */;
+			buildPhases = (
+				B4A9C8F9279A3181E9BB24004C25D66D /* Headers */,
+				60BD274AF47A231B50E11B9294A8A1AB /* Sources */,
+				1041E718E8CD59568775FCDCC467E07D /* Frameworks */,
+				5E8FF47BAD04495756AAB8F300EC36FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5E68B48CDAD6ED151D1AD68E0D1A621 /* PBXTargetDependency */,
+			);
+			name = "Pods-AGSparkview_Tests";
+			productName = "Pods-AGSparkview_Tests";
+			productReference = CD303BE946FE8C3051D6C6A66ABBFD7D /* Pods_AGSparkview_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B82385FBB0751D6F8FA476849FA26639 /* AGSparkview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E15A790D7238FB78FA903D1DBBB3384 /* Build configuration list for PBXNativeTarget "AGSparkview" */;
+			buildPhases = (
+				686326F0F93CED45A7004E91F5AE6828 /* Headers */,
+				01047A0078BEB74461540277AC25D6C7 /* Sources */,
+				75486C7BB41164F1F3FA2132BFCA6441 /* Frameworks */,
+				9DB6702354FD945D6369904AD8A08F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGSparkview;
+			productName = AGSparkview;
+			productReference = 461B0E3AC6813C34C62CF06BAF2AE5A0 /* AGSparkview.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B82385FBB0751D6F8FA476849FA26639 = {
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 174B751E9D6561C74D75DE33C5211D67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B82385FBB0751D6F8FA476849FA26639 /* AGSparkview */,
+				32EA06429E6B092CBA2D3906C3814252 /* Pods-AGSparkview_Example */,
+				A8CBFFC54DC21900234045E79B17EC9B /* Pods-AGSparkview_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2137B4A7BE3C83EF65B066191B4F03A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8FF47BAD04495756AAB8F300EC36FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB6702354FD945D6369904AD8A08F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01047A0078BEB74461540277AC25D6C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3E88DC26CD78E100BD7B8D /* AGSparkview.swift in Sources */,
+				BB117B53A08732D88161C79ADB8C6389 /* AGSparkview-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BD274AF47A231B50E11B9294A8A1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE68F5E7DE7E25E715BC9BAB23F948A5 /* Pods-AGSparkview_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E293A1227126DFC16CD77D8CF76B6A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230174FA606A5BF90A5628A1CB91280F /* Pods-AGSparkview_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C642D72C2532B0B51B0020D90300DDF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AGSparkview;
+			target = B82385FBB0751D6F8FA476849FA26639 /* AGSparkview */;
+			targetProxy = 7A9BB4FADC09AA7522BC34C96EE9A82A /* PBXContainerItemProxy */;
+		};
+		E5E68B48CDAD6ED151D1AD68E0D1A621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AGSparkview_Example";
+			target = 32EA06429E6B092CBA2D3906C3814252 /* Pods-AGSparkview_Example */;
+			targetProxy = 77A61D7E638D927D687AE2BC5698B51A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		080E227F7F8BA15745D291FE5B76EE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B181BB3A6B65E838A6B243C30709FC /* AGSparkview.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AGSparkview/AGSparkview-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGSparkview/AGSparkview-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGSparkview/AGSparkview.modulemap";
+				PRODUCT_MODULE_NAME = AGSparkview;
+				PRODUCT_NAME = AGSparkview;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C2DE5879819369210AAEBDF5F6E59F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B553B0618F45665BF4410654C8413BDE /* Pods-AGSparkview_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AGSparkview_Example/Pods-AGSparkview_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGSparkview_Example/Pods-AGSparkview_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5265389B47E2A1D41F0695601306A648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E571B30A05C4FF5184F7478B9F3D2B /* Pods-AGSparkview_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AGSparkview_Example/Pods-AGSparkview_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGSparkview_Example/Pods-AGSparkview_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB834A275510F92F90CB19F2FB9B991E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08B25DE473CD1F5C1833E2781C0DE1D /* Pods-AGSparkview_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AGSparkview_Tests/Pods-AGSparkview_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGSparkview_Tests/Pods-AGSparkview_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EA01C21C691A2124BF10CDE52FA485ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1306A90874F4CE960F37E48C0E1CF60 /* Pods-AGSparkview_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AGSparkview_Tests/Pods-AGSparkview_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGSparkview_Tests/Pods-AGSparkview_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC2E8B58682BA6BA0FC8413D45128560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DA29933C840833AE26105CBC64AA00 /* AGSparkview.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AGSparkview/AGSparkview-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGSparkview/AGSparkview-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGSparkview/AGSparkview.modulemap";
+				PRODUCT_MODULE_NAME = AGSparkview;
+				PRODUCT_NAME = AGSparkview;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E15A790D7238FB78FA903D1DBBB3384 /* Build configuration list for PBXNativeTarget "AGSparkview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2E8B58682BA6BA0FC8413D45128560 /* Debug */,
+				080E227F7F8BA15745D291FE5B76EE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C71B01CFC0A12C0E7370181FE40E1FF /* Build configuration list for PBXNativeTarget "Pods-AGSparkview_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB834A275510F92F90CB19F2FB9B991E /* Debug */,
+				EA01C21C691A2124BF10CDE52FA485ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69F673AFB798F2BCDCF3A91AAF9B925 /* Build configuration list for PBXNativeTarget "Pods-AGSparkview_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5265389B47E2A1D41F0695601306A648 /* Debug */,
+				1C2DE5879819369210AAEBDF5F6E59F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
